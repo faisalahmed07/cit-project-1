@@ -1,0 +1,36 @@
+@media  (max-width: 991px) {
+.banner nav a{
+padding-left: 140px;
+}
+
+.banner{
+    height: 1270px;
+}
+
+.banner-video iframe{
+    max-width: 100%;
+    size: cover;
+}
+
+.banner-cnt h1,
+.banner-cnt h2{
+font-size: 35px;
+}
+
+.banner-cnt a{
+    padding: 8px 14px;
+    font-size: 14px;
+}
+
+.banner-card {
+    margin-bottom: 100px;
+ 
+}
+
+
+}
+
+
+
+
+

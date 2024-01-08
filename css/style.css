@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300;400;500;600;700&display=swap');
+
+:root{
+    --main-color: #342B27;
+    --secondry-bg-color:  linear-gradient(214deg, #FF8079 -2.24%, #FF1E1E 59.38%);
+   
+}
+
+/* common css */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+ul,ol{
+    list-style: none;
+}
+
+
+/* common css end */
+
+
+.cit-header p i {
+    padding-right: 10px;
+}
+.cit-header{
+    background: linear-gradient(214deg, #FF8079 -2.24%, #FF1E1E 59.38%);
+    color: white;
+    
+}
+
+.cit-header p{
+    padding-right: 20px;
+  padding-top: 10px;
+}
+
+body{
+    font-family: 'Hind Siliguri', sans-serif;
+}
+
+.banner{
+    font-weight: 600;
+    font-size: 16px;
+    background: #FAF0F0;
+    height: 768px;
+}
+
+.banner .banner-btn{
+    padding: 1px 2px;
+    border-radius: 10px;
+    
+background: linear-gradient(214deg, #FF8079 -2.24%, #FF1E1E 59.38%);
+box-shadow: 0px 23px 45px 0px rgba(255, 122, 48, 0.14);
+}
+
+.banner-btn a{
+    color: white !important;
+    margin-bottom: 20px;
+    
+}
+
+.banner-btn i{
+    padding-right: 10px;
+}
+
+/* banner sect css starts  */
+
+.banner .banner-cnt h4{
+    font-size: 16px;
+}
+
+
+.banner .banner-cnt i{
+    width: 30px;
+    height: 30px;
+    background: linear-gradient(214deg, #FF8079 -2.24%, #FF1E1E 59.38%);
+    box-shadow: 0px 23px 45px 0px rgba(255, 122, 48, 0.14);
+    padding-top: 5px;
+    padding-left: 5px;
+    border-radius: 50px;
+    color: white;
+}
+
+.banner-cnt{
+    padding-top: 70px;
+    position: relative;
+}
+.banner-cnt h1{
+    font-size: 60px;
+    color: var(--main-color);
+    font-weight: 600;
+}
+
+.banner-cnt h2{
+
+    background: var(--Gradient, linear-gradient(214deg, #FF8079 -2.24%, #FF1E1E 59.38%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.banner-cnt p{
+    font-weight: 400;
+    font-size: 16px;
+    padding-bottom: 40px;
+}
+
+.banner-cnt a{
+    padding: 13px 22px ;
+    background-color: #EF473A;
+    color: white; 
+    border-radius: 10px;
+}
+
+.banner-cnt a i{
+background: none !important;
+}
+
+#banner-btn-two{
+    background-color: #FFFFFF;
+color: var(--Main-Color-Primary, #CF0000);
+margin-left: 20px;
+transition: 0.3s;
+display: inline-block;
+}
+
+#banner-btn-two:hover{
+border: 1px solid #CF0000;
+color: var(--main-color);
+background-color: transparent;
+margin-top: -5px;
+}
+
+
+.banner-video iframe{
+    border-radius: 35px;
+    border: 11px solid #FFF;
+    background: linear-gradient(0deg, rgba(34, 7, 7, 0.30) 0%, rgba(0, 0, 0, 0.00) 53.73%), url(<path-to-image>), lightgray 50% / cover no-repeat;
+    
+}
+
+.banner-video{
+    padding: 75px;
+}
+
+.banner-cnt img{
+    padding-top: 20px;
+    display: flex;
+}
+
+.banner-cnt .banner-down p{
+    display: inline-block;
+   position: relative;
+   top: -30px;
+   left: 50px;
+}
+
+.banner-down{
+    position: relative;
+}
+
+.banner-cnt .dott{
+    position: absolute;
+    top:68px;
+    left: -130px;
+}
+
+.banner-cnt .dott-two{
+    position: absolute;
+    right: -70px;
+    top: 350px;
+    z-index: 11;
+}
+
+.banner-cnt .plus-icon{
+    position: absolute;
+    right: -50px;
+    top: 250px;
+}
+
+.banner-cnt .bg-line{
+    position: absolute;
+    z-index: 1;
+    top: 0;
+}
+
+.banner-card {
+    width: 198px;
+    height: 157px;
+    background-color: #FFFFFF;
+    margin-top: -70px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 20px;
+    text-align: center;
+   
+}
+
+.banner-card.pink i{
+    color: #F06294;
+    
+}
+
+.banner-card.purple i{
+    color: #AA47BC;
+    
+}
+
+.banner-card.purple-two i{
+    color: #9675CE ;
+}
+
+.banner-card.purple-three i{
+    color: #7986CC;
+}
+
+.banner-card.blue i{
+    color: #7986CC;
+}
+
+
+
+.banner-card i{
+   padding-top: 50px;
+  color: #E63935;
+  font-size: 25px;
+}
+.banner-card p{
+    font-weight: 600;
+    font-size: 18px;
+}
+
+/* banner sect css ends  */
+
